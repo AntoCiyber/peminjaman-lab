@@ -12,12 +12,20 @@ $active_menu = $active_menu ?? 'dashboard';
     <!-- Bootstrap 5 CSS & Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #f7f6f2;
-            color: #2c251d;
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        }
+    background-color: #f7f6f2;
+    color: #2c251d;
+    font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    }
+    h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    }
         .sidebar {
             width: 260px;
             min-height: 100vh;
