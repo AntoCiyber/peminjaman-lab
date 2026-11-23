@@ -182,7 +182,7 @@ $active_menu = $active_menu ?? 'dashboard';
     <header class="topbar d-flex justify-content-between align-items-center">
         <div>
             <div class="fw-bold" style="font-size: 15px;">Sistem Peminjaman Alat Laboratorium</div>
-            <small class="text-muted">Laboratorium Terpadu Fakultas Sains dan Teknologi</small>
+            <small class="text-muted">Laboratorium Terpadu FMIPA UNTAN</small>
         </div>
         <div class="text-end">
             <span class="badge bg-light text-dark border px-3 py-2">
